@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_left{
+    color: #13395B;
+    font-size: 1.5rem;
+}
+
+.navbar_right ul{
+    list-style-type: none;
+}
+
+.navbar_right ul li{
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    font-family: 'Robot', sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+
+.login-btn{
+    background: linear-gradient(180deg, #E9C46B 0%, #F3A261 100%);
+    border-radius: 6px;
+}
